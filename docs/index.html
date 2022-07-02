@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Naruto | landing page UI</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo"><img src="images/logo-PhotoRoom-PhotoRoom.png"></a>
+        <div class="toggle"><img src="images/toggle.png"></div>
+    </header>
+    <div class = "banner">
+        <div class="content">
+            <h2>Reality <span>is often </span>disappointing</h2>
+            <p>Wake up to reality! Nothing ever goes as planned in this accursed world. The longer you live, the more you realize that the only things that truly exist in this reality are merely pain, suffering and futility
+            </p>
+            <a href="#" class="play" onclick="toggle();"><img src="images/play.png">Watch Trailer</a>
+            <div class="slide"></div>
+            <ul class ="sci">
+                <li><a href="#" ><img src="images/facebook.png"></a></li>
+                <li><a href="#" ><img src="images/twitter.png"></a></li>
+                <li><a href="#" ><img src="images/instagram.png"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="trailer">
+        <video src="video.mp4" controls="true"></video>
+        <img src="images/close.png" class="close" onclick="toggle();">
+    </div>
+    <script type="text/javascript">
+        function toggle(){
+            var trailer = document.querySelector('.trailer');
+            trailer.classList.toggle('active')
+            video.currenTime = 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
