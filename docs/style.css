@@ -166,10 +166,11 @@ header .toggle img
     visibility: hidden;
     opacity: 0;
 }
+
 .trailer.active
 {
     visibility: visible;
-    opacity: 0;
+    opacity: 1;
 }
 
 .trailer video
@@ -188,7 +189,7 @@ header .toggle img
     max-width: 32px;
 }
 
-@media (max-width: 991px)
+ @media (max-width: 991px)
 {
     header
     {
@@ -254,4 +255,4 @@ header .toggle img
         max-width: 90%;
         outline: none;
     }
-}
+}  
