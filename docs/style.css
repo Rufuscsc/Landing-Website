@@ -43,7 +43,7 @@ header .toggle img
     min-height: 100vh;
     padding: 0 100px;
     background-position: center;
-    background: url(images/ss.jpg);
+    background: url(images/703728.png);
     background-size: cover;
     display: flex;
     justify-content: flex-start;
@@ -132,7 +132,6 @@ header .toggle img
     left: calc(50% - 25px / 2);
     width: 250px;
     height: 150px;
-    background: url(images/naruto.jpg);
     background-size: cover;
     cursor: pointer;
     animation: animate 25s linear infinite;  
